@@ -1,11 +1,26 @@
 {
   "name": "react-boilerplate",
   "version": "0.1.0",
-  "description": "",
+  "description": "Setup with Webpack, Babel and all the fun stuff.",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VioletaLibertad/react-boilerplate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/VioletaLibertad/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/VioletaLibertad/react-boilerplate#readme"
 }
