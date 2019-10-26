@@ -4,4 +4,11 @@ import '@babel/polyfill';
 import App from './App';
 import './styles.css';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+// StrictMode added in order to avoid React Deprecated Apis
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('app')
+);
